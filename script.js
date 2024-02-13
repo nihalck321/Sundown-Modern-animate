@@ -23,8 +23,7 @@ function page4Animation() {
 }
 function swiperAnimation() {
   var swiper = new Swiper(".mySwiper", {
-    slidesPerView: "auto",
-    centeredSlides: true,
+    slidesPerView: 3,
     spaceBetween: 30,
   });
 }

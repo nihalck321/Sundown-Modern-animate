@@ -403,19 +403,39 @@ nav {
 }
 
 #footer h1 {
-    font-size: 24vw;
+    font-size: 22vw;
 }
 
 #footer-div {
-    height: 20vh;
+    height: 38vh;
     width: 100%;
-    background-color: red;
+    background-color: #ff4500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0vw 5vw;
 }
+
 
 #footer-bottom {
     border-top: 1px solid #dadada4a;
-    height: 10vh;
+    height: 7vh;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5vw;
+}
+
+#footer-bottom p a {
+    color: #ffffff;
+    font-size: 1vw;
+    text-decoration: none;
+}
+
+#footer-bottom p:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 nav h3 {
@@ -439,6 +459,7 @@ nav h3 {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
+
 
 @media (max-width: 600px) {
     #page1 {
@@ -582,7 +603,10 @@ nav h3 {
         font-size: 7vw;
         width: 100%;
         line-height: 8vw;
+        font-weight: 300;
     }
+
+
 
 
     #bottom-part2 {
@@ -803,5 +827,102 @@ nav h3 {
         color: #494949;
         font-size: 4vw;
         font-weight: 200;
+    }
+}
+
+#footer-shape {
+    position: absolute;
+    width: 46vw;
+    height: 36vw;
+    right: -37px;
+    top: -21vh;
+}
+
+#footer-shape-1 {
+    position: absolute;
+    width: 46vw;
+    height: 36vw;
+    left: 394px;
+    top: -23vh;
+}
+
+#footer-shape-3 {
+    position: absolute;
+    width: 46vw;
+    height: 36vw;
+    left: -226px;
+    top: -36vh;
+}
+
+
+#footer-nav-menu a {
+    color: #ffffff;
+    font-size: 2vw;
+    text-decoration: none;
+}
+
+
+#contact {
+    width: 25%;
+    font-size: 1.4vw;
+    font-weight: 200;
+}
+
+#contact input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #efeae3a6;
+    width: 100%;
+    height: 50px;
+}
+
+#input-wrp {
+    position: relative;
+    display: flex;
+}
+
+#input-wrp #arrow {
+    position: absolute;
+    right: 5px;
+    width: 2vw;
+    color: #fff;
+}
+
+#input-wrp #arrow i {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 600px) {
+    #footer-div {
+        height: 100vh;
+        flex-direction: column;
+        padding: 20vw 5vw;
+        align-items: start;
+    }
+
+    #footer-nav-menu a {
+        color: #ffffff;
+        font-size: 10vw;
+        text-decoration: none;
+    }
+
+    #contact {
+        width: 100%;
+        font-size: 5.4vw;
+        font-weight: 100;
+    }
+
+    #footer-bottom p a {
+        font-size: 2vw;
+    }
+
+    #input-wrp #arrow {
+        position: absolute;
+        right: 5px;
+        width: 8vw;
+        color: #fff;
+        bottom: 0;
     }
 }

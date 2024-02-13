@@ -425,7 +425,7 @@ nav h3 {
 #full-scr {
     height: 100vh;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.486);
+    /* background-color: rgba(0, 0, 0, 0.486); */
     position: fixed;
     z-index: 99;
     top: -100%;
@@ -586,7 +586,7 @@ nav h3 {
 
 
     #bottom-part2 {
-        width: 70%;
+        width: 90%;
     }
 
     #bottom-part2 img {
@@ -597,7 +597,7 @@ nav h3 {
     #bottom-part2 p {
         font-weight: 200;
         margin-top: 2vw;
-        font-size: 3vw;
+        font-size: 3.7vw;
     }
 
     #page2 #gooey {
@@ -616,7 +616,28 @@ nav h3 {
         animation-timing-function: ease-in-out;
     }
 
+    .elem h1 {
+        font-size: 8vw;
+    }
 
+    .elem {
+        height: 75px;
+    }
+
+    #page3 {
+        min-height: 65vh;
+    }
+
+    #page4 {
+        height: 40vh;
+        width: 100%;
+        background-color: #EFEAE3;
+        padding: 10vw 2vw;
+    }
+
+    #fixed-image {
+        left: 72%;
+    }
 }
 
 #loader {
@@ -647,29 +668,32 @@ nav h3 {
 
 #loader h1:nth-child(1) {
     animation-delay: 1s;
-}   
+}
 
 #loader h1:nth-child(2) {
     animation-delay: 2s;
-}   
+}
 
 #loader h1:nth-child(3) {
     animation-delay: 3s;
     animation-duration: 2s;
-}   
+}
 
 
 @keyframes load {
-    0%{
+    0% {
         opacity: 0;
     }
-    10%{
+
+    10% {
         opacity: 1;
     }
-    90%{
+
+    90% {
         opacity: 1;
     }
-    100%{
+
+    100% {
         opacity: 0;
     }
 }
@@ -678,5 +702,5 @@ nav h3 {
     #loader h1 {
         font-size: 10vw;
     }
-    
+
 }

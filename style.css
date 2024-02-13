@@ -898,7 +898,7 @@ nav h3 {
     #footer-div {
         height: 100vh;
         flex-direction: column;
-        padding: 20vw 5vw;
+        padding: 40vw 5vw;
         align-items: start;
     }
 
